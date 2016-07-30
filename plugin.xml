@@ -7,7 +7,7 @@
 			The plugin will add an Android Intent Filter to the App that redirects the following URLs to your App.
 
 			* http://DOMAIN_NAME
-      * http://www.DOMAIN_NAME
+			* http://www.DOMAIN_NAME
 			* https://DOMAIN_NAME
 			* https://www.DOMAIN_NAME
 
