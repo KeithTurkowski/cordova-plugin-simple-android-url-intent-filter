@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-simple-android-url-intent-filter" version="0.0.1">
     <name>Simple Android URL Intent Filter</name>
-    <description>
-	Include the plugin, and specify the variable DOMAIN_NAME as the top level domain you wish to direct to your app.
-
-	The plugin will add an Android Intent Filter to the App that redirects the following URLs to your App.
-
-	* http://DOMAIN_NAME
-	* http://www.DOMAIN_NAME
-	* https://DOMAIN_NAME
-	* https://www.DOMAIN_NAME
-
-	The association occurs after the App has been run for the first time.
-    </description>
+    <description>Add the variable DOMAIN_NAME with the value set as the top level domain you wish to direct to your app. An Android Intent Filter will be added to the App that redirects the following URLs to your App: (http://DOMAIN_NAME, http://www.DOMAIN_NAME, https://DOMAIN_NAME, https://www.DOMAIN_NAME)</description>
     <license>BSD-3</license>
     <engines>
         <engine name="cordova" version=">=3.0.0" />
